@@ -1,0 +1,152 @@
+/* ================================================
+   HYDRA SILICON VALLEY - Styles Globaux
+   Palette : OR #C9A84C | VERT #1B5E20 | NOIR #1A1A1A
+   Typographie : Georgia (titres) | Arial (corps)
+   ================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Base --- */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply font-arial text-noir-texte bg-creme;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-georgia text-noir-logo;
+  }
+
+  h1 { @apply text-4xl md:text-5xl lg:text-6xl; }
+  h2 { @apply text-3xl md:text-4xl lg:text-5xl; }
+  h3 { @apply text-2xl md:text-3xl; }
+  h4 { @apply text-xl md:text-2xl; }
+
+  p { @apply leading-relaxed text-noir-texte/80; }
+
+  a {
+    @apply text-gold-dark hover:text-gold transition-colors duration-300;
+  }
+
+  ::selection {
+    @apply bg-gold/20 text-noir-logo;
+  }
+}
+
+/* --- Composants réutilisables --- */
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .gold-border {
+    @apply border border-gold/30;
+  }
+
+  .gold-divider {
+    @apply w-16 h-px bg-gold mx-auto my-6;
+  }
+
+  .gold-divider-left {
+    @apply w-16 h-px bg-gold my-6;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-white font-montserrat font-semibold
+           rounded-sm transition-all duration-300
+           hover:bg-gold-dark hover:shadow-lg hover:shadow-gold/20
+           focus:outline-none focus:ring-2 focus:ring-gold/50 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 border border-gold/50 text-gold-dark font-montserrat font-semibold
+           rounded-sm transition-all duration-300
+           hover:bg-gold/10 hover:border-gold
+           focus:outline-none focus:ring-2 focus:ring-gold/50 focus:ring-offset-2;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-6 py-2.5 text-noir-texte font-montserrat font-medium
+           rounded-sm transition-all duration-300
+           hover:bg-gold/10 hover:text-gold-dark;
+  }
+
+  .card-premium {
+    @apply bg-white border border-sable-dore/50 rounded-sm p-6 md:p-8
+           transition-all duration-300
+           hover:shadow-lg hover:shadow-gold/5 hover:border-gold/30;
+  }
+
+  .section-dark {
+    @apply bg-noir-logo text-white;
+  }
+
+  .section-gold {
+    @apply bg-gold text-white;
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-dark via-gold to-gold-light;
+  }
+
+  /* Ligne décorative dorée */
+  .gold-line {
+    @apply relative;
+  }
+
+  .gold-line::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-px bg-gold/20;
+  }
+}
+
+/* --- Utilitaires --- */
+@layer utilities {
+  .hexagon-clip {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* --- Animations --- */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- Scrollbar premium --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-creme;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gold/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gold/50;
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://hydrasv.com/sitemap.xml
+
+# Protéger les futurs espaces admin et API
+Disallow: /admin/
+Disallow: /api/
