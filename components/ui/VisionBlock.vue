@@ -13,9 +13,5 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  title: string
-  description: string
-  icon: string
-}>()
+defineProps<{ title: string; description: string; icon: string }>()
 </script>

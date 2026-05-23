@@ -38,11 +38,11 @@ import VisionBlock from '~/components/ui/VisionBlock.vue'
 import Timeline from '~/components/ui/Timeline.vue'
 
 const timelineItems = [
-  { year: '2020', title: 'Fondation de HSV', description: 'Création de la corporation avec une vision panafricaine.' },
-  { year: '2022', title: 'Lancement HSV TECH', description: 'Première filiale opérationnelle - solutions logicielles enterprise.' },
-  { year: '2024', title: 'Expansion continentale', description: 'Présence dans 25 pays africains, 150+ projets livrés.' },
-  { year: '2026', title: 'Lancement HSV HEALTH & HSV AI', description: 'Entrée dans la santé numérique et l\'intelligence artificielle.' },
-  { year: '2028', title: 'HSV CLOUD - Cloud souverain', description: 'Infrastructure cloud panafricaine pour la souveraineté des données.' },
-  { year: '2030', title: 'Licorne panafricaine', description: 'Objectif : devenir la première licorne technologique panafricaine.' }
+  { year: '2026', title: 'Fondation de HSV', description: 'Création de la corporation avec une vision panafricaine.' },
+  { year: '2028', title: 'Lancement HSV TECH', description: 'Objectif : première filiale opérationnelle - solutions logicielles enterprise.' },
+  { year: '2030', title: 'Expansion continentale', description: 'Présence dans 25 pays africains, 150+ projets livrés.' },
+  { year: '2032', title: 'Lancement HSV HEALTH & HSV AI', description: 'Entrée dans la santé numérique et l\'intelligence artificielle.' },
+  { year: '2034', title: 'HSV CLOUD - Cloud souverain', description: 'Infrastructure cloud panafricaine pour la souveraineté des données.' },
+  { year: '2036', title: 'Licorne panafricaine', description: 'Objectif : devenir la première licorne technologique panafricaine.' }
 ]
 </script>

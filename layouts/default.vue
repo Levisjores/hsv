@@ -10,10 +10,11 @@
 </template>
 
 <script setup lang="ts">
+
 import { onMounted, onUnmounted } from 'vue'
 import AppNavbar from '~/components/global/AppNavbar.vue'
 import AppFooter from '~/components/global/AppFooter.vue'
-import ChatbotWidget from '~/components/global/ChatbotWidget.vue'
+//import ChatbotWidget from '~/components/global/ChatbotWidget.vue'
 import { useUIStore } from '~/stores/ui'
 
 const uiStore = useUIStore()

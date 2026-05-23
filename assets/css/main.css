@@ -110,6 +110,11 @@
     @apply absolute bottom-0 left-0 w-full h-px bg-gold/20;
   }
 }
+/* --- Formulaires --- */
+.input-field {
+  @apply w-full px-4 py-2.5 border border-sable-dore/50 rounded-sm bg-creme/50 text-noir-texte text-sm
+         focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/20 transition-colors;
+}
 
 /* --- Utilitaires --- */
 @layer utilities {

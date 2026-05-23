@@ -7,10 +7,9 @@
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center gap-3 group" aria-label="Accueil HSV">
         <div class="w-10 h-10 rounded-sm bg-gold flex items-center justify-center text-white font-georgia font-bold text-lg">
-          H
+          <img src="/assets/images/logo/logo.jpeg" alt="Logo HSV" class="w-6 h-6" />
         </div>
-        <span class="hidden sm:block font-montserrat font-semibold text-sm tracking-widest uppercase"
-              :class="uiStore.isScrolled ? 'text-noir-logo' : 'text-noir-logo'">
+        <span class="hidden sm:block font-montserrat font-semibold text-sm tracking-widest uppercase text-noir-logo group-hover:text-gold-dark transition-colors">
           HYDRA SV
         </span>
       </NuxtLink>
@@ -83,10 +82,8 @@
 <script setup lang="ts">
 import { MAIN_NAVIGATION } from '~/constants/navigation'
 import { useUIStore } from '~/stores/ui'
-import { useChatbotStore } from '~/stores/chatbot'
 
 const uiStore = useUIStore()
-const chatbotStore = useChatbotStore()
 </script>
 
 <style scoped>

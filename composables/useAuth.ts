@@ -7,6 +7,7 @@
  * - Refresh token automatique
  * - Middleware de route protégée
  */
+import { ref } from 'vue'
 export function useAuth() {
   const isAuthenticated = ref(false)
   const user = ref(null)

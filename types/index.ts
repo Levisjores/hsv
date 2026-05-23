@@ -1,13 +1,4 @@
-// Types globaux HYDRA SILICON VALLEY
-
-export interface Service {
-  id: string
-  title: string
-  description: string
-  icon: string
-  category: string
-  features: string[]
-}
+// Types institutionnels HYDRA SILICON VALLEY
 
 export interface Filiale {
   id: string
@@ -16,16 +7,16 @@ export interface Filiale {
   description: string
   sector: string
   status: 'active' | 'planned' | 'upcoming'
-  color: string
+  color: 'gold' | 'green'
   icon: string
+  vision: string
+  futureUrl?: string
 }
 
-export interface TeamMember {
-  id: string
-  name: string
-  role: string
-  bio: string
-  image: string
+export interface TimelineEvent {
+  year: string
+  title: string
+  description: string
 }
 
 export interface Statistic {
@@ -36,19 +27,29 @@ export interface Statistic {
   prefix?: string
 }
 
-export interface Testimonial {
+export interface NewsArticle {
+  id: string
+  title: string
+  excerpt: string
+  category: string
+  date: string
+  image?: string
+  slug: string
+}
+
+export interface GovernanceMember {
   id: string
   name: string
   role: string
-  company: string
-  content: string
-  image: string
+  bio: string
+  image?: string
 }
 
 export interface ContactFormData {
-  name: string
+  firstName: string
+  lastName: string
   email: string
-  company: string
+  organization: string
   subject: string
   message: string
 }

@@ -9,7 +9,7 @@
         <div class="lg:col-span-2">
           <div class="flex items-center gap-3 mb-4">
             <div class="w-10 h-10 rounded-sm bg-gold flex items-center justify-center text-noir-logo font-georgia font-bold text-lg">
-              H
+              <img src="/assets/images/logo/logo.jpeg" alt="Logo HSV" class="w-6 h-6" />
             </div>
             <div>
               <p class="font-montserrat font-semibold text-sm tracking-widest uppercase">HYDRA SILICON VALLEY</p>

@@ -1,6 +1,6 @@
 // stores/ui.ts - Version compatible Pinia 3
 import { defineStore } from 'pinia'
-
+import { ref } from 'vue'
 export const useUIStore = defineStore('ui', () => {
   const isNavOpen = ref(false)
   const isChatbotOpen = ref(false)
