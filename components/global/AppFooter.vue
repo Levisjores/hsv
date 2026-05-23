@@ -33,18 +33,6 @@
           </ul>
         </div>
 
-        <!-- Colonne 3 : Services -->
-        <div>
-          <h4 class="font-montserrat font-semibold text-xs uppercase tracking-widest text-gold mb-4">Services</h4>
-          <ul class="space-y-2">
-            <li v-for="link in FOOTER_NAVIGATION.services" :key="link.to">
-              <NuxtLink :to="link.to" class="text-sm text-white/60 hover:text-gold-light transition-colors">
-                {{ link.label }}
-              </NuxtLink>
-            </li>
-          </ul>
-        </div>
-
         <!-- Colonne 4 : Écosystème -->
         <div>
           <h4 class="font-montserrat font-semibold text-xs uppercase tracking-widest text-gold mb-4">Écosystème</h4>

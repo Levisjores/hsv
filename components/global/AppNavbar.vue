@@ -30,7 +30,7 @@
 
       <!-- Actions Desktop -->
       <div class="hidden lg:flex items-center gap-3">
-        <button class="btn-ghost text-sm" @click="chatbotStore.toggle()">
+        <button class="btn-ghost text-sm" click="chatbotStore.toggle()">
           <Icon name="mdi:chat-outline" size="18" />
           <span>Assistant</span>
         </button>
