@@ -4,13 +4,13 @@ export const SITE_CONFIG = {
   shortName: 'HSV',
   tagline: 'Enracinés en Afrique. Élevés au niveau mondial.',
   description: 'Corporation technologique panafricaine - Innovation, Cloud, IA, Cybersécurité, Transformation digitale.',
-  url: 'https://hydrasv.com',
+  url: 'https://hydrasiliconvalley.com',
   email: 'contact@hydrasv.com',
-  phone: '+225 27 22 00 00 00',
+  phone: '+237 620 484 254',
   address: {
-    street: 'Plateau, Immeuble Signal',
-    city: 'Abidjan',
-    country: 'Côte d\'Ivoire'
+    street: '',
+    city: 'Yaoundé',
+    country: 'Cameroun'
   },
   founded: 2020,
   socials: {

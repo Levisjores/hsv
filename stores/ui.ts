@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 import { ref } from 'vue'
 export const useUIStore = defineStore('ui', () => {
   const isNavOpen = ref(false)
-  const isChatbotOpen = ref(false)
+  //const isChatbotOpen = ref(false)
   const scrollY = ref(0)
   const isScrolled = ref(false)
 
@@ -13,13 +13,13 @@ export const useUIStore = defineStore('ui', () => {
   function closeNav() {
     isNavOpen.value = false
   }
-  function toggleChatbot() {
+  /*function toggleChatbot() {
     isChatbotOpen.value = !isChatbotOpen.value
-  }
+  }*/
   function setScrollY(value: number) {
     scrollY.value = value
     isScrolled.value = value > 50
   }
 
-  return { isNavOpen, isChatbotOpen, scrollY, isScrolled, toggleNav, closeNav, toggleChatbot, setScrollY }
+  return { isNavOpen, scrollY, isScrolled, toggleNav, closeNav, setScrollY }
 })

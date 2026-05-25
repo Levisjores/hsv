@@ -33,15 +33,15 @@ export interface AuthTokens {
   expiresIn: number
 }
 
-export interface ChatbotMessage {
+/*export interface ChatbotMessage {
   id: string
   content: string
   role: 'user' | 'assistant'
   timestamp: Date
-}
+}*/
 
-export interface ChatbotResponse {
+/*export interface ChatbotResponse {
   message: string
   suggestions?: string[]
   actions?: Array<{ label: string; action: string }>
-}
+}*/

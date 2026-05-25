@@ -7,10 +7,10 @@ export interface SectionTitleProps {
   variant?: 'gold' | 'dark'
 }
 
-export interface ServiceCardProps {
-  service: import('./index').Service
+/*export interface ServiceCardProps {
+  service: import('./index').Corporation
   index?: number
-}
+}*/
 
 export interface StatisticCardProps {
   statistic: import('./index').Statistic
