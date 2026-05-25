@@ -64,10 +64,7 @@
 </template>
 
 <script setup lang="ts">
-import AboutHero from '~/components/sections/AboutHero.vue'
 import SectionTitle from '~/components/ui/SectionTitle.vue'
-import TeamSection from '~/components/sections/TeamSection.vue'
-import CTASection from '~/components/ui/CTASection.vue'
 
 const valeurs = [
   { titre: 'Excellence', description: 'Nous visons l\'excellence dans chaque ligne de code, chaque projet, chaque relation.' },
