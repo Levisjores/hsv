@@ -14,7 +14,7 @@
         <div class="space-y-6">
           <div class="card-premium">
             <h3 class="font-montserrat font-bold text-lg mb-4">Siège Social</h3>
-            <p class="text-sm text-noir-texte/60">Plateau, Immeuble Signal<br />Abidjan, Côte d'Ivoire</p>
+            <p class="text-sm text-noir-texte/60">Awae Escalier<br />Yaoundé, Cameroun</p>
           </div>
           <div class="card-premium">
             <h3 class="font-montserrat font-bold text-lg mb-4">Presse</h3>
@@ -22,7 +22,7 @@
           </div>
           <div class="card-premium bg-gold/5 border-gold/30">
             <h3 class="font-montserrat font-bold text-lg mb-2">Investisseurs</h3>
-            <p class="text-sm text-noir-texte/60">invest@hydrasv.com</p>
+            <p class="text-sm text-noir-texte/60"><a href="mailto:hydrasiliconvalley@gmail.com">hydrasiliconvalley@gmail.comc</a></p>
           </div>
         </div>
       </div>
