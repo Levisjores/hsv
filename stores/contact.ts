@@ -4,7 +4,7 @@ import { ref } from 'vue'
 
 export const useContactStore = defineStore('contact', () => {
   const isSubmitting = ref(false)
-  const numero = "237673713395";
+  const numero = "237686969015";
   let message = "";
   let MessageEncode ="";
   const isSuccess = ref(false)

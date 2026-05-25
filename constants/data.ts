@@ -222,31 +222,31 @@ export const GOVERNANCE: GovernanceMember[] = [
   {
     id: 'ceo',
     name: 'ING. Prosper Patrick MVOGO',
-    role: 'Fondateur & Chief Executive Officier',
+    role: 'Fondateur & Chief Executive Officer',
     bio: 'Visionnaire de la tech africaine'
   },
   {
     id: 'ceo',
     name: 'ING. Bienvenu KUETCHE CHENDOU',
-    role: 'Co-Fondateur & Chief Operating Officier',
+    role: 'Co-Fondateur & Chief Operating Officer',
     bio: 'Visionnaire de la tech africaine'
   },
   {
     id: 'cto',
     name: 'ING. Levis Jores NJIMI NJEUMEN',
-    role: 'Directreur Technique & ',
+    role: 'Directreur Technique & Chief Technology Officer',
     bio: 'ingénieur des travaux informatiques, admistrateur SR et Developpeur Web et Mobile'
   },
   {
-    id: 'coo',
-    name: 'Pierre Nkosi',
-    role: 'Directeur Général Adjoint, Opérations & Expansion',
-    bio: 'Spécialiste de la transformation digitale, 15 ans de conseil en stratégie auprès de gouvernements africains.'
+    id: 'cto',
+    name: 'ING. Moriane MAGUI',
+    role: 'Responsable Communication & Marketing',
+    bio: 'Spécialiste de la transformation digitale.'
   },
   {
     id: 'cfo',
-    name: 'Fatima Sow',
-    role: 'Directrice Financière',
-    bio: 'Ancienne directrice des investissements chez un fonds panafricain. Expertise en levée de fonds et structuration financière.'
+    name: 'ING. William ALIMA ZOGO',
+    role: 'Graphiste / Designer',
+    bio: 'Graphiste pro, Concepteur UI/UX'
   }
 ]
